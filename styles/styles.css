@@ -1,0 +1,61 @@
+.navbar {
+    background: linear-gradient(to left,#5F1A21,#C35356);
+}
+
+.logo {
+    height: 50px;
+    vertical-align: text-top;
+}
+
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.home-button {
+    background-color: #20142C;
+    color: #fff;
+    border-radius: 32px;
+    font-size: 24px;
+    width: 300px;
+    height: 48px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+.home-button:hover{
+    background-color: #EE4540;
+    color: #000;
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.explore {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    flex-basis: 40%;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'Jomhuria';
+    text-align: center;
+}
